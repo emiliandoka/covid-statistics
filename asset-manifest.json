@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/cov-try1/static/css/main.970a2be5.chunk.css",
-    "main.js": "/cov-try1/static/js/main.7e3200d3.chunk.js",
-    "main.js.map": "/cov-try1/static/js/main.7e3200d3.chunk.js.map",
-    "runtime-main.js": "/cov-try1/static/js/runtime-main.185d3a78.js",
-    "runtime-main.js.map": "/cov-try1/static/js/runtime-main.185d3a78.js.map",
-    "static/js/2.896cc932.chunk.js": "/cov-try1/static/js/2.896cc932.chunk.js",
-    "static/js/2.896cc932.chunk.js.map": "/cov-try1/static/js/2.896cc932.chunk.js.map",
-    "index.html": "/cov-try1/index.html",
-    "static/css/main.970a2be5.chunk.css.map": "/cov-try1/static/css/main.970a2be5.chunk.css.map",
-    "static/js/2.896cc932.chunk.js.LICENSE.txt": "/cov-try1/static/js/2.896cc932.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/cov-try1/static/media/Montserrat-Thin.4a799b11.ttf",
-    "static/media/icon.d044ac8e.png": "/cov-try1/static/media/icon.d044ac8e.png",
-    "static/media/user.453fd679.png": "/cov-try1/static/media/user.453fd679.png"
+    "main.css": "/emiliandoka/cov-try1/static/css/main.89b46e08.chunk.css",
+    "main.js": "/emiliandoka/cov-try1/static/js/main.c02e3b0b.chunk.js",
+    "main.js.map": "/emiliandoka/cov-try1/static/js/main.c02e3b0b.chunk.js.map",
+    "runtime-main.js": "/emiliandoka/cov-try1/static/js/runtime-main.a26e15ba.js",
+    "runtime-main.js.map": "/emiliandoka/cov-try1/static/js/runtime-main.a26e15ba.js.map",
+    "static/js/2.60d01012.chunk.js": "/emiliandoka/cov-try1/static/js/2.60d01012.chunk.js",
+    "static/js/2.60d01012.chunk.js.map": "/emiliandoka/cov-try1/static/js/2.60d01012.chunk.js.map",
+    "index.html": "/emiliandoka/cov-try1/index.html",
+    "static/css/main.89b46e08.chunk.css.map": "/emiliandoka/cov-try1/static/css/main.89b46e08.chunk.css.map",
+    "static/js/2.60d01012.chunk.js.LICENSE.txt": "/emiliandoka/cov-try1/static/js/2.60d01012.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/emiliandoka/cov-try1/static/media/Montserrat-Thin.4a799b11.ttf",
+    "static/media/icon.d044ac8e.png": "/emiliandoka/cov-try1/static/media/icon.d044ac8e.png",
+    "static/media/user.453fd679.png": "/emiliandoka/cov-try1/static/media/user.453fd679.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.185d3a78.js",
-    "static/js/2.896cc932.chunk.js",
-    "static/css/main.970a2be5.chunk.css",
-    "static/js/main.7e3200d3.chunk.js"
+    "static/js/runtime-main.a26e15ba.js",
+    "static/js/2.60d01012.chunk.js",
+    "static/css/main.89b46e08.chunk.css",
+    "static/js/main.c02e3b0b.chunk.js"
   ]
 }
