@@ -4,10 +4,9 @@ import Logo from '../../media/icon.png';
 import {Link} from 'react-router-dom';
 
 const burgermenu = ()=>{
-    document.querySelector('.header-menu').classList.toggle('active')
-    document.querySelector('.burger-menu').classList.toggle('active-burger')
-    
-    
+    document.querySelector('.header-menu').classList.toggle('active');
+    document.querySelector('.burger-menu').classList.toggle('active-burger');
+    window.scrollTo(0, 0);
     }
 
 const Header = ()=>(

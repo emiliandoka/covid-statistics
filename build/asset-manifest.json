@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/emiliandoka/cov-try1/static/css/main.b6bdc73f.chunk.css",
-    "main.js": "/emiliandoka/cov-try1/static/js/main.945faaf4.chunk.js",
-    "main.js.map": "/emiliandoka/cov-try1/static/js/main.945faaf4.chunk.js.map",
+    "main.css": "/emiliandoka/cov-try1/static/css/main.89b46e08.chunk.css",
+    "main.js": "/emiliandoka/cov-try1/static/js/main.c02e3b0b.chunk.js",
+    "main.js.map": "/emiliandoka/cov-try1/static/js/main.c02e3b0b.chunk.js.map",
     "runtime-main.js": "/emiliandoka/cov-try1/static/js/runtime-main.a26e15ba.js",
     "runtime-main.js.map": "/emiliandoka/cov-try1/static/js/runtime-main.a26e15ba.js.map",
     "static/js/2.60d01012.chunk.js": "/emiliandoka/cov-try1/static/js/2.60d01012.chunk.js",
     "static/js/2.60d01012.chunk.js.map": "/emiliandoka/cov-try1/static/js/2.60d01012.chunk.js.map",
     "index.html": "/emiliandoka/cov-try1/index.html",
-    "static/css/main.b6bdc73f.chunk.css.map": "/emiliandoka/cov-try1/static/css/main.b6bdc73f.chunk.css.map",
+    "static/css/main.89b46e08.chunk.css.map": "/emiliandoka/cov-try1/static/css/main.89b46e08.chunk.css.map",
     "static/js/2.60d01012.chunk.js.LICENSE.txt": "/emiliandoka/cov-try1/static/js/2.60d01012.chunk.js.LICENSE.txt",
     "static/media/index.css": "/emiliandoka/cov-try1/static/media/Montserrat-Thin.4a799b11.ttf",
     "static/media/icon.d044ac8e.png": "/emiliandoka/cov-try1/static/media/icon.d044ac8e.png",
@@ -17,7 +17,7 @@
   "entrypoints": [
     "static/js/runtime-main.a26e15ba.js",
     "static/js/2.60d01012.chunk.js",
-    "static/css/main.b6bdc73f.chunk.css",
-    "static/js/main.945faaf4.chunk.js"
+    "static/css/main.89b46e08.chunk.css",
+    "static/js/main.c02e3b0b.chunk.js"
   ]
 }

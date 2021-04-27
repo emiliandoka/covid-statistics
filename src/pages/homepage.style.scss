@@ -23,6 +23,8 @@
 }
 .pages-list{
     margin-top: 20px;
+    justify-content: end;
+    flex-wrap: wrap;
 }
 .home {
    & form {
