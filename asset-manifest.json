@@ -2,17 +2,17 @@
   "files": {
     "main.css": "/cov-try1/static/css/main.4f843793.chunk.css",
     "main.js": "/cov-try1/static/js/main.5a0fdd55.chunk.js",
-    "main.js.map": "/emiliandoka/cov-try1/static/js/main.5a0fdd55.chunk.js.map",
-    "runtime-main.js": "/emiliandoka/cov-try1/static/js/runtime-main.a26e15ba.js",
-    "runtime-main.js.map": "/emiliandoka/cov-try1/static/js/runtime-main.a26e15ba.js.map",
-    "static/js/2.60d01012.chunk.js": "/emiliandoka/cov-try1/static/js/2.60d01012.chunk.js",
-    "static/js/2.60d01012.chunk.js.map": "/emiliandoka/cov-try1/static/js/2.60d01012.chunk.js.map",
-    "index.html": "/emiliandoka/cov-try1/index.html",
-    "static/css/main.4f843793.chunk.css.map": "/emiliandoka/cov-try1/static/css/main.4f843793.chunk.css.map",
-    "static/js/2.60d01012.chunk.js.LICENSE.txt": "/emiliandoka/cov-try1/static/js/2.60d01012.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/emiliandoka/cov-try1/static/media/Montserrat-Thin.4a799b11.ttf",
-    "static/media/icon.d044ac8e.png": "/emiliandoka/cov-try1/static/media/icon.d044ac8e.png",
-    "static/media/user.453fd679.png": "/emiliandoka/cov-try1/static/media/user.453fd679.png"
+    "main.js.map": "/cov-try1/static/js/main.5a0fdd55.chunk.js.map",
+    "runtime-main.js": "/cov-try1/static/js/runtime-main.a26e15ba.js",
+    "runtime-main.js.map": "/cov-try1/static/js/runtime-main.a26e15ba.js.map",
+    "static/js/2.60d01012.chunk.js": "/cov-try1/static/js/2.60d01012.chunk.js",
+    "static/js/2.60d01012.chunk.js.map": "/cov-try1/static/js/2.60d01012.chunk.js.map",
+    "index.html": "/cov-try1/index.html",
+    "static/css/main.4f843793.chunk.css.map": "/cov-try1/static/css/main.4f843793.chunk.css.map",
+    "static/js/2.60d01012.chunk.js.LICENSE.txt": "/cov-try1/static/js/2.60d01012.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/cov-try1/static/media/Montserrat-Thin.4a799b11.ttf",
+    "static/media/icon.d044ac8e.png": "/cov-try1/static/media/icon.d044ac8e.png",
+    "static/media/user.453fd679.png": "/cov-try1/static/media/user.453fd679.png"
   },
   "entrypoints": [
     "static/js/runtime-main.a26e15ba.js",
