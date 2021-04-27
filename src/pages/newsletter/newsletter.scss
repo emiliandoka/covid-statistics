@@ -1,0 +1,39 @@
+.newsletter{
+    display: grid;
+    grid-template-columns: 118px auto;
+}
+
+.newsl-tittle{
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+@media (max-width: 800px){
+    .newsletter{
+        grid-template-columns: auto;
+        margin-top: 50px;
+    }
+    .post-n{
+        display: flex;
+        flex-direction: column;
+        & img{
+            max-width: 400px;
+            margin: auto;
+            max-height: unset;
+            width:unset;
+        }
+
+        & .post-contents {
+            max-width: 90%;
+            margin: auto;
+        }
+    
+
+    .tweets{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+}

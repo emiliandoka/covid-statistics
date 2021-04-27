@@ -1,0 +1,95 @@
+
+.home{
+    display: grid;
+    grid-template-columns: 118px  5fr 2.2fr;
+    h2{
+        text-align: center;
+    }
+}
+.home .Subs-form{
+    margin-top: 5px;
+    margin-left: 20px;
+    width: 90vw;
+}
+.info{
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+    margin-top: 30px;
+}
+.subs-text{
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.pages-list{
+    margin-top: 20px;
+}
+.home {
+   & form {
+        max-width: 500px;
+
+    }
+}
+
+@media(max-width:1250px){
+    .home{
+        grid-template-columns: auto;
+
+        & .post{
+          max-width:  344px;
+        }
+        
+    }
+    .top , .home >section{
+        margin-left: 118px;
+        margin-right: 20px
+    }
+    .home >section{
+        display: flex;
+        flex-direction: column;
+    }
+    .home .news-section{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .stats{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+        & .card{
+            min-width: 240px;
+        }
+    }
+}
+
+
+@media(max-width:830px){
+    .top , .home >section{
+        margin-left: 10px;
+        margin-right: 10px
+    }
+    .info{
+        grid-template-columns: 1fr;
+    }
+    .home{
+       overflow: hidden;
+
+        & .post{
+          max-width:  400px;
+        }
+
+    }
+    .table-stats{
+        max-width: 100vw;
+        overflow-x: scroll;
+
+       & table{
+            overflow-y: scroll;
+            /* table-layout: fixed; */
+            width: 100%;
+            max-width: 100vw;
+            padding-right: 14px;
+        }
+    }
+}

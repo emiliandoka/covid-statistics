@@ -1,0 +1,141 @@
+.alert{
+    background-color: #FEEC6C;
+    color: #CA6F1E;
+    padding: 4px 17px;
+    text-align: center;
+    margin: 0;
+    display: inline-block;
+    border-radius: 6px 6px 0px 0px;
+}
+
+table{
+    display: table;
+    top: 0px;
+    box-sizing: border-box;
+    color: #283747;
+    border: 1px solid rgba($color: #000000, $alpha: 0.1);
+    &:hover{
+        background-color: #F8F9F9;
+    }
+    & .header{
+        background: #D5DBDB;
+        display: table-cell;
+        
+    }
+    & .tableh {
+        padding: 10px 27px;
+
+        background: #D5DBDB;
+        position: relative;
+        &:hover{
+            background:#E2E4E4;
+            & .fa-sort{
+                color: #2980B9;
+            }
+        }
+    }
+    & span{
+        width: 20px;
+    }
+    & .fa-sort{
+        position: absolute;
+        right: 5px;
+        top: 40%;
+    }
+    tr  {
+        
+        td:nth-child(1){
+        padding-left: 7px;
+        }
+    }
+}
+.index{
+    padding: 0px 20px;
+}
+
+td{
+    padding-left: 5px;
+    padding: 15px 10px 15px 15px;
+    border-bottom: 1px solid #CACBCB;
+;
+}
+table .tableh.coun{
+    padding: 10px 30px;
+}
+.index{
+    padding:10px 15px;
+        background: #D5DBDB; 
+}
+
+.pages-list{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0px 20px;
+    display: flex;
+    justify-content: center;
+    & .pagenum {
+        padding: 5px 9px;
+        margin: 2px 4px;
+        border: 1px solid #ddd;
+        color: #566573;
+        text-decoration: none;
+        cursor: pointer;
+        &:hover{
+            border: 1px solid #2980B9;
+            color: #2980B9;
+        }
+    }
+}
+
+select{
+    padding: 7px 5px;
+    border: 1px solid #ddd;
+    color: #566573;
+    outline: none;
+    box-sizing: content-box;
+   
+
+    & option:checked{
+        background-color: #EBF5FB;
+    }
+    & option{
+        //margin: 14px;
+        
+    }
+}
+.table-stats{
+    display: flex;
+    flex-direction:column;
+    
+}
+
+table tr:not(:first-child):hover>td{
+    background-color: #D5D8DC;
+}
+
+.f-right:hover i::before{
+    content: '\f101';
+    color: #2980B9;
+}
+.f-left:hover i::before{
+    content: '\f100';
+    color: #2980B9;
+
+
+}
+.f-left , .f-right{
+    position: relative;
+    padding: 0px 15px;
+
+}
+.f-left i , .f-right i{
+    position: absolute;
+    right: 8px;
+    z-index: 1001;
+}
+.f-left:hover i , .f-right:hover i{
+    right: 4px;
+   
+}

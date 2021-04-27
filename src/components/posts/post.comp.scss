@@ -1,0 +1,98 @@
+.post{
+    width: 90%;
+    max-width: 400px;
+    margin:20px auto 15px auto;
+    border: 2px solid rgba($color: #000000, $alpha: 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+   position: relative; 
+   transition: all .3s;
+   &:hover{
+    border: 2px solid rgba($color: #000000, $alpha: 0.2);
+    box-shadow: 0px 5px 10px rgba($color: #000000, $alpha: 0.18);
+    transform: translateY(-2px);
+   }
+    & .post-contents{
+        padding: 0px 5px 8px 5px;
+        
+    }
+
+    & h2{
+        position: absolute;
+        bottom: 33.5%;
+        margin-left: -6px;
+        padding-left: 4px;
+        color: white;
+        font-size: 21px;
+        background-color: rgba(0, 0, 0, 0.3)
+    }
+    & p{
+        font-size: 16px;
+        color: #2E4053;
+        padding: auto 8px;
+        font-weight: 300;
+    }
+    & a{
+        color: #566573;
+        &:hover{
+            color: #1C2833;
+        }
+    }
+    & img{
+        width: 100%;
+        max-height: 230px;
+    }
+}
+
+
+.post-n{
+    width: 90%;
+    margin:20px auto 15px auto;
+    border: 2px solid rgba($color: #000000, $alpha: 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+   transition: all .3s;
+   &:hover{
+    border: 2px solid rgba($color: #000000, $alpha: 0.2);
+    box-shadow: 0px 4px 12px rgba($color: #000000, $alpha: 0.13);
+    background-color: #FCFCFC;
+   }
+    & .post-contents{
+        padding: 0px 5px 8px 5px;
+        margin-left: 20px;
+        max-width: 67%;
+
+    }
+
+    & h2{
+
+        padding-left: 4px;
+        font-size: 21px;
+        color: #1F2B37;
+        cursor: pointer;
+        &:hover{
+        color: #5C81A5;
+        }
+    }
+    & a h2{
+        text-decoration: none;
+    }
+    & p{
+        font-size: 16px;
+        color: #2E4053;
+        padding: auto 8px;
+        font-weight: 300;
+        line-height: 1.4;
+    }
+    & a{
+        color: #566573;
+        &:hover{
+            color: #1C2833;
+        }
+    }
+    & img{
+        max-height: 230px;
+        width: 345px;
+    }
+}

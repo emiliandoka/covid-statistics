@@ -1,0 +1,120 @@
+.worldmap{
+    display: grid;
+    grid-template-columns: 118px 4.5fr 2fr;
+
+    & .stats{
+        margin: auto;
+        & .card{
+            padding: 0 31px;
+        }
+    }
+    & .Map{
+        height: 82vh;
+    }
+
+    &-header{
+        display: inline-block;
+        font-size: 28px;
+        color: #444A51;
+    }
+    &-heading{
+        display: flex;
+        justify-content: space-between;
+    }
+    &-search{
+        margin: 30px 0 15px 0;
+        width: 259px;
+        max-height: 40px;
+        position: relative;
+    }
+}
+.search-item-cont{
+    position: absolute;
+    top: 92%;
+    visibility: hidden;
+    width: 259px;
+    z-index: 1001;
+    list-style: none;
+    border-right: 2px solid rgba($color: #000000, $alpha: 0.15);
+    border-left: 2px solid rgba($color: #000000, $alpha: 0.15);
+    border-bottom: 2px solid rgba($color: #000000, $alpha: 0.15);
+    border-radius: 0px 0px 10px 10px;
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    display: none;
+    padding: 0;
+    display: block;
+    box-shadow: 0px 7px 10px rgba($color: #000000, $alpha: 0.15);
+    & li:nth-child(1){
+        margin-top: 20px;
+    }
+    & li{
+        cursor: pointer;
+        list-style: none;
+        color: #444A51;
+        padding: 10px 10px;
+        &:hover{
+            background-color: rgb(216, 216, 216);
+        }
+    }
+}
+.fa-search{
+    font-size: 22px;
+    position: absolute;
+    right: 7px;
+    top: 6px;
+    opacity: .6;
+    
+    
+}
+.forminp:valid ~ .fa-search::before{
+    content: "\f00d";
+}
+
+
+@media(max-width : 800px){
+   .worldmap{
+       grid-template-columns: auto;
+       margin-top: 40px;
+   }
+   .worldmap-heading{
+       margin: 0 10px;
+   }
+   .worldmap .stats{
+
+    margin: unset;
+    margin: 15px 0 0 0 !important;
+
+   }
+}
+
+@media(max-width : 580px){
+    .worldmap-heading{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .worldmap-search{
+        height: 35px;
+    }
+    .worldmap .stats{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: unset;
+
+        margin: 15px 0 0 0 !important;
+
+        & .card{
+            margin: 3px;
+            min-width: 245px;
+        }
+    }
+    .worldmap-search {
+        margin: 15px 0 15px 0;
+
+
+    }
+}

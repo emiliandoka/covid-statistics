@@ -1,0 +1,18 @@
+.tweets div{
+    display: inline-block;
+}
+.tweets div:nth-child(2){
+    margin-left: 20px
+}
+.tweets div{
+    max-width: 47%;
+    margin: auto;
+}
+
+
+@media (max-width:830px){
+    .tweets div{
+        max-width: 96%;
+        margin: auto;
+    }
+}

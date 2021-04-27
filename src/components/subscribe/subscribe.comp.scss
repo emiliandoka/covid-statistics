@@ -1,0 +1,62 @@
+.Subs-form{
+    position: relative;
+    display: inline-block;
+    margin-top: 20px;
+    width: 80%;
+}
+.subsinp{
+    border: 1px solid rgba($color: #000000, $alpha: 0.24);
+    border-radius: 6px;
+    outline: none;
+    padding: 9px 24px;
+    width: calc(100% - 86px);
+    &::placeholder{
+        color: #34495E;
+    }
+}
+
+.submit{
+    padding: 11px 14px 9px 14px;
+    transform: translateY(-1px) scale(1);
+    position: absolute;
+    border-radius:0px 6px 6px 0;
+    cursor: pointer;
+    right: 0px;
+    outline: none;
+    border: 1px solid rgba($color: #ffffff, $alpha: .7);
+    color: white;
+    background-image: linear-gradient(to right bottom ,#FF354D ,#FE6108);
+    &:hover{
+        transform: translateY(-1px) scale(1.07);
+        top: -2px;
+        background-image: linear-gradient(to right bottom , #FE485E , #FD7529);
+    }
+    &:active{
+        transform: translateY(-1px) scale(1);
+        transform: translateY(-1px) scale(1);
+        background-image: linear-gradient(to right bottom ,#FF354D ,#FE6108);
+        top: 0px;
+    }
+}
+
+.didsub{
+    opacity: 0;
+}
+.didsubs{
+    animation: showtext 6s;
+}
+
+@keyframes showtext{
+    0%{
+        opacity: 0;
+    }
+    20%{
+        opacity: 1;
+    }
+    60%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
